@@ -1,0 +1,20 @@
+<div class="table-container">
+  <div class="table-title">Employee Work Hours</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Total Hours</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        *ngFor="let emp of employees"
+        [class.low-hours]="emp.totalHours < 100"
+      >
+        <td>{{ emp.name }}</td>
+        <td>{{ emp.totalHours }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

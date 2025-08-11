@@ -1,0 +1,4 @@
+<div class="chart-container" *ngIf="isBrowser && pieChartData">
+  <div class="chart-title">Work Hours Distribution</div>
+  <canvas baseChart [data]="pieChartData" [type]="pieChartType"> </canvas>
+</div>
