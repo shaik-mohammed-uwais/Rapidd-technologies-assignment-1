@@ -2,19 +2,19 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/employee-work-hours/',
+  baseHref: '/Rapidd-technologies-assignment-1/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/employee-work-hours"
+    "route": "/Rapidd-technologies-assignment-1"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 462, hash: '8f2f3438cff4a41aca54795befa15748ee73341fdbe6bc627ce24418b1a3f8a4', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 975, hash: '6d03d62a150402d7be46650e2f682f230d2ca0361af56d673c795d5dda135771', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'index.html': {size: 8046, hash: '377c1cbbb1ca5fe953618b7c8f4f4e58aaf51885ad55a10a890cb419408fb032', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 475, hash: 'd90c2fea2a62bd7223d68098deec2071a95b73752d8b2f72d2bb435f13b6d567', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 988, hash: 'e0d6193a84d5bf8749252b2d23aad75f0cccab096403cd55fd22ef9018c62f2d', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'index.html': {size: 8059, hash: '183e24b61d5dc5af2a9ce7fd2f33def48d17085cc3afcb78984189e2faa230a6', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };

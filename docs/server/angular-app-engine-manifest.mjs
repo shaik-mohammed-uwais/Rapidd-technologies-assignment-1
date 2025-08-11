@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/employee-work-hours',
+  basePath: '/Rapidd-technologies-assignment-1',
   supportedLocales: {
   "en-US": ""
 },
