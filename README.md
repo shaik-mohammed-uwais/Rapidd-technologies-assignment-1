@@ -1,59 +1,30 @@
-# EmployeeWorkHours
+# Employee Work Hours Visualization
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.5.
+This project is an Angular application that fetches employee work hour data from a provided API and visualizes it in two ways:  
+1. **HTML Table** – Lists employees ordered by their total hours worked, with rows highlighted if they worked less than 100 hours.  
+2. **Pie Chart** – Displays the percentage share of total work hours for each employee.
 
-## Development server
+## Features
+- Data fetched dynamically from the API using HTTP GET.
+- Employees sorted in descending order of hours worked.
+- Conditional row coloring for employees with less than 100 hours.
+- Interactive pie chart showing each employee's contribution to total work hours.
+- Simple dark theme for better readability.
 
-To start a local development server, run:
+## API Used
+https://rc-vault-fap-live-1.azurewebsites.net/api/gettimeentries?code=vO17RnE8vuzXzPJo5eaLLjXjmRW07law99QTD90zat9FfOQJKKUcgQ==
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Technologies Used
+- Angular
+- ng2-charts (Chart.js)
+- TypeScript
+- HTML & CSS
 
-## Code scaffolding
+## Live Demo
+[View Live Demo](https://your-live-demo-link.com)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/employee-work-hours.git
